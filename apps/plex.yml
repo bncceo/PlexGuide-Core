@@ -215,6 +215,7 @@
           PLEX_UID: '1000'
           PLEX_GID: '1000'
           ADVERTISE_IP: '{{customConnections}}'
+          NVIDIA_VISIBLE_DEVICES: 'all'
         networks:
           - name: plexguide
             aliases:

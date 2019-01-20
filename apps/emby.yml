@@ -45,6 +45,7 @@
           PUID: 1000
           PGID: 1000
           GIDLIST: '1000'
+          NVIDIA_VISIBLE_DEVICES: 'all'
 
     # MAIN DEPLOYMENT #############################################################
     - name: 'Deploying {{pgrole}}'
