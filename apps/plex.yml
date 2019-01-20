@@ -176,6 +176,7 @@
           PLEX_GID: '1000'
           PLEX_CLAIM: '{{claim.stdout}}'
           ADVERTISE_IP: '{{customConnections}}'
+          NVIDIA_VISIBLE_DEVICES: 'all'
         purge_networks: yes
         networks:
           - name: plexguide
